@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0355d336-68d2-4aac-8389-24a15d54beea" name="Changes" comment="i still hate github actions">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+    <list default="true" id="0355d336-68d2-4aac-8389-24a15d54beea" name="Changes" comment="Add slf4j and Reload4j">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Downloader/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Downloader/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655431613159</updated>
-      <workItem from="1655431615751" duration="7285000" />
+      <workItem from="1655431615751" duration="7649000" />
     </task>
     <task id="LOCAL-00001" summary="add files">
       <created>1655436147913</created>
@@ -117,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655437047540</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add slf4j and Reload4j">
+      <created>1655438990499</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1655438990499</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +144,7 @@
     <MESSAGE value="add artifact saving" />
     <MESSAGE value="i hate github actions" />
     <MESSAGE value="i still hate github actions" />
-    <option name="LAST_COMMIT_MESSAGE" value="i still hate github actions" />
+    <MESSAGE value="Add slf4j and Reload4j" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add slf4j and Reload4j" />
   </component>
 </project>
