@@ -24,9 +24,8 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B package --file pom.xml
-    - name: Archive production artifacts
-    - uses: actions/upload-artifact@v3
+    - name: Use the Upload Artifact GitHub Action
+      uses: actions/upload-artifact@v2
       with:
-        name: executable-jar
-        path: |
-          target
+        name: assets-for-upload
+        path: target
