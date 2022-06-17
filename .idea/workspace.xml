@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0355d336-68d2-4aac-8389-24a15d54beea" name="Changes" comment="add artifact saving">
+    <list default="true" id="0355d336-68d2-4aac-8389-24a15d54beea" name="Changes" comment="i hate github actions">
       <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655431613159</updated>
-      <workItem from="1655431615751" duration="5252000" />
+      <workItem from="1655431615751" duration="5369000" />
     </task>
     <task id="LOCAL-00001" summary="add files">
       <created>1655436147913</created>
@@ -94,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655436584473</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="i hate github actions">
+      <created>1655436932211</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1655436932211</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +121,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add files" />
     <MESSAGE value="add artifact saving" />
-    <option name="LAST_COMMIT_MESSAGE" value="add artifact saving" />
+    <MESSAGE value="i hate github actions" />
+    <option name="LAST_COMMIT_MESSAGE" value="i hate github actions" />
   </component>
 </project>
