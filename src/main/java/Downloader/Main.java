@@ -1,12 +1,31 @@
 package Downloader;
 
+import io.sentry.Sentry;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.lang.Exception;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.PrintWriter;
 
 public class Main {
     public static void main(String[] args)  {
+
+        Sentry.init(options -> {
+            options.setDsn("https://949b969343314271be199caba5dd897a@o561860.ingest.sentry.io/6510977");
+            // Set tracesSampleRate to 1.0 to capture 100% of transactions for performance monitoring.
+            // We recommend adjusting this value in production.
+            options.setTracesSampleRate(1.0);
+            // When first trying Sentry it's good to see what the SDK is doing:
+            options.setDebug(false);
+        });
+
+        Logger logger = LoggerFactory.getLogger(Main.class);
+        logger.info("Initialized Sentry");
+
+
         try {
             String[] command =
                     {
@@ -23,7 +42,7 @@ public class Main {
             System.out.println("Return code = " + returnCode);
 
         } catch (Exception e) {
-            throw new RuntimeException(e);
+            Sentry.captureException(e);
         }
     }
 }
@@ -44,7 +63,7 @@ class SyncPipe implements Runnable
         }
         catch (Exception e)
         {
-            e.printStackTrace();
+            Sentry.captureException(e);
         }
     }
     private final OutputStream ostrm_;
